@@ -1,0 +1,13 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise Task Management System with Admin & Employee Workflows",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed"
+  },
+  "keywords": ["task-management", "mongodb", "express", "react", "rbac"]
+}
